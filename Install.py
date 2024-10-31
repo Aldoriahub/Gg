@@ -1,7 +1,8 @@
-import time
-import os
+
 
 def load():
+    import time
+    import os
     print("Downloading code...")
     time.sleep(2)
     os.system('clear')
