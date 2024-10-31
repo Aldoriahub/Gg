@@ -2,10 +2,8 @@ def load():
     import time
     import os
     print("Downloading code...")
-    time.sleep("2")
+    time.sleep(2)
     os.system('clear')
-
-g = "1"
 
 def fetch_and_run_code(url):
     try:
